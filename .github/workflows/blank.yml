@@ -40,6 +40,7 @@ jobs:
       - name: An event received
         run: |
           echo "payload test-data '${{ github.event.client_payload.test-data }}'"
+          echo "payload test-data '${{ github.event.client_payload }}'"
 
 
 
